@@ -6,6 +6,6 @@
   
   [2. 1이 될 때 까지](https://github.com/8282qwe/algorithm_study/blob/master/그리디%20알고리즘/1이%20될%20때까지(p.99).py)
   
-  [3. 왕실의 나이트]
+  [3. 왕실의 나이트](https://github.com/8282qwe/algorithm_study/blob/master/구현/왕실의%20나이트(p.115).py)
   
   [4. 게임 개발](https://github.com/8282qwe/algorithm_study/blob/master/구현/게임%20개발(p.118).py)
