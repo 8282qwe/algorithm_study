@@ -16,4 +16,4 @@
   [2. 음료수 얼려먹기](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/음료수%20얼려먹기(p.149).py)
   
 ### DFS, BFS 프로그래머스 문제 풀이
-  [1. 타겟 넘버]()
+  [1. 타겟 넘버](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/프로그래머스-타겟%20넘버.py)
