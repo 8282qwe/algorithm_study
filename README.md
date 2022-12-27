@@ -11,7 +11,9 @@
   [4. 게임 개발](https://github.com/8282qwe/algorithm_study/blob/master/구현/게임%20개발(p.118).py)
 
 ## DFS, BFS 관련 풀이
-[1. 미로 탈출](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/미로%20탈출(p.153).py)
-[2. 음료수 얼려먹기](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/음료수%20얼려먹기(p.149).py)
+  [1. 미로 탈출](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/미로%20탈출(p.153).py)
+  
+  [2. 음료수 얼려먹기](https://github.com/8282qwe/algorithm_study/blob/master/DFS%2CBFS/음료수%20얼려먹기(p.149).py)
+  
 ### DFS, BFS 프로그래머스 문제 풀이
-[1. 타게 넘버]
+  [1. 타겟 넘버]()
