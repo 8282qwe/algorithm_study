@@ -20,10 +20,15 @@
   
 ## 정렬
 [1. 위에서 아래로](https://github.com/8282qwe/algorithm_study/blob/master/정렬/위에서%20아래로(p.178).py)
+
 [2. 성적이 낮은 순서로 학생 출력하기](https://github.com/8282qwe/algorithm_study/blob/master/정렬/성적이%20낮은%20순서로%20학생%20출력하기(p.180).py)
+
 [3. 두 배열의 원소 교체](https://github.com/8282qwe/algorithm_study/blob/master/정렬/두%20배열의%20원소%20교체(p.182).py)
 
 ## 이진 탐색
 [1. 이진 탐색 베이스 코드](https://github.com/8282qwe/algorithm_study/blob/master/이진%20탐색/이진%20탐색%20베이스%20코드.py)
+
 [2. 부품 탐색](https://github.com/8282qwe/algorithm_study/blob/master/이진%20탐색/부품%20찾기(p.197).py)
+
 [3. 떡볶이 떡 만들기](https://github.com/8282qwe/algorithm_study/blob/master/이진%20탐색/떡볶이%20떡%20만들기(p.200).py)
+
