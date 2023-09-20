@@ -1,0 +1,14 @@
+from sys import stdin
+
+while True:
+    a,b,c = map(int, stdin.readline().split())
+    if sum([a,b,c]) == 0:
+        break
+    if sum([a,b,c]) - max([a,b,c]) <= max([a,b,c]):
+        print("Invalid")
+    elif a == b == c:
+        print("Equilateral")
+    elif a == b or a == c or b == c:
+        print("Isosceles")
+    else:
+        print("Scalene")
