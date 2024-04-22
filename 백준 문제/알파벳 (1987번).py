@@ -1,22 +1,33 @@
-import sys
-input = sys.stdin.readline
+def dfs(x, y, count):
+    global answer
+    answer = max(answer, count)
 
-n,m = map(int,input().rstrip().split())
+    for i in range(4):
 
-board = [list(input().rstrip()) for _ in range(n)]
+        nx = dx[i] + x
+        ny = dy[i] + y
 
-def dfs(a,b):
-    global ans
-    alphas.add(board[a][b])
-    ans = max(ans, len(alphas))
+        if nx <= -1 or nx >= r or ny <= -1 or ny >= c:
+            continue
 
-    for nodeA,nodeB in [[a,b-1],[a,b+1],[a-1,b],[a+1,b]]:
-        if 0 <= nodeA < n and 0 <= nodeB < m:
-            if board[nodeA][nodeB] not in alphas:
-                dfs(nodeA,nodeB)
-                alphas.remove(board[nodeA][nodeB])
+        if visited[ord(alphaGrid[nx][ny]) - 65] == 0:
+            visited[ord(alphaGrid[nx][ny]) - 65] = 1
+            dfs(nx, ny, count+1)
+            visited[ord(alphaGrid[nx][ny]) - 65] = 0
 
-ans = 0
-alphas = set()
-dfs(0,0)
-print(ans)
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
+
+r, c = map(int, input().split())
+alphaGrid = []
+for _ in range(r):
+    alphaGrid.append(list(map(str, input())))
+
+visited = [0] * 26
+visited[ord(alphaGrid[0][0])-65] = 1
+
+answer = 1
+
+dfs(0, 0, 1)
+
+print(answer)
